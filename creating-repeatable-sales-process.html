@@ -13,84 +13,64 @@
 
 <body class="case-study-page">
   <div id="page-wrapper">
-    <header class="site-header case-site-header">
-      <nav class="navbar navbar-expand-md navbar-light case-navbar">
-        <a class="navbar-brand" href="./index.html#home">Amy Melangton</a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarMenu">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="#snapshot">Snapshot</a></li>
-            <li class="nav-item"><a class="nav-link" href="#goal">Goal</a></li>
-            <li class="nav-item"><a class="nav-link" href="#timeline">Evolution</a></li>
-            <li class="nav-item"><a class="nav-link" href="#command-center">Command Center</a></li>
-            <li class="nav-item"><a class="nav-link" href="#artifacts">Artifacts</a></li>
-          </ul>
-        </div>
+    <header class="case-site-header">
+      <nav class="case-navbar" aria-label="Case study navigation">
+        <a class="case-back-link" href="./index.html#projects">Back to Case Studies</a>
+        <span>Building a Scalable Sales Process</span>
       </nav>
     </header>
 
     <main>
       <section id="hero" class="case-hero-section">
-        <div class="container case-hero-grid">
+        <div class="container">
           <div class="case-hero-copy">
-            <p class="case-kicker">Product Case Study</p>
+            <p class="case-kicker">Case Study</p>
             <h1>Building a Scalable Sales Process</h1>
-            <p class="case-hero-summary">[Outcome-focused summary placeholder for the repeatable sales process system.]</p>
+            <p class="case-hero-summary">[Short project summary placeholder for the repeatable sales process system.]</p>
+          </div>
 
-            <div class="case-meta-grid">
-              <div>
-                <span>Objective</span>
-                <strong>[Scale sales execution]</strong>
-              </div>
-              <div>
-                <span>System</span>
-                <strong>[Process + prioritization]</strong>
-              </div>
-              <div>
-                <span>Principle</span>
-                <strong>[Intent, timing, context]</strong>
-              </div>
+          <div class="case-meta-grid" aria-label="Case study metadata">
+            <div>
+              <span>Industry</span>
+              <strong>[Industry placeholder]</strong>
+            </div>
+            <div>
+              <span>Focus</span>
+              <strong>[Sales process systems]</strong>
+            </div>
+            <div>
+              <span>Scope</span>
+              <strong>[Process, prioritization, execution]</strong>
+            </div>
+            <div>
+              <span>Timeline</span>
+              <strong>[Timeline placeholder]</strong>
             </div>
           </div>
 
-          <div class="system-os-mockup" aria-label="Sales Process Operating System mockup">
-            <div class="mockup-topbar">
-              <div>
-                <span>Sales Process Operating System</span>
-                <strong>[System preview]</strong>
-              </div>
-              <b>Live queue</b>
+          <div class="system-os-diagram" aria-label="Sales Process Operating System diagram">
+            <div class="diagram-header">
+              <span>Sales Process Operating System</span>
+              <b>[Operating model diagram]</b>
             </div>
-
-            <div class="os-flow-strip">
-              <div>Signal</div>
-              <span></span>
-              <div>Decision</div>
-              <span></span>
-              <div>Priority</div>
-              <span></span>
-              <div>Execution</div>
-            </div>
-
-            <div class="os-dashboard-grid">
-              <div class="os-panel os-panel-primary">
-                <span>Attention Queue</span>
-                <h3>[What deserves attention first]</h3>
-                <div class="mini-queue-row active"><b>[Priority item]</b><em>[Action]</em></div>
-                <div class="mini-queue-row"><b>[Priority item]</b><em>[Action]</em></div>
-                <div class="mini-queue-row"><b>[Priority item]</b><em>[Action]</em></div>
-              </div>
-              <div class="os-panel">
+            <div class="system-diagram-grid">
+              <div class="system-layer signal-layer">
                 <span>Inputs</span>
                 <p>[Inbound, campaign, sequence, and nurture signals]</p>
               </div>
-              <div class="os-panel">
-                <span>Guidance</span>
-                <p>[Workflow-ready next step]</p>
+              <div class="system-connector"></div>
+              <div class="system-layer logic-layer">
+                <span>Decision Logic</span>
+                <div class="logic-pill-row">
+                  <b>Intent</b>
+                  <b>Timing</b>
+                  <b>Context</b>
+                </div>
+              </div>
+              <div class="system-connector"></div>
+              <div class="system-layer queue-layer">
+                <span>Attention Queue</span>
+                <p>[Prioritized work and workflow-ready next step]</p>
               </div>
             </div>
           </div>
@@ -125,9 +105,9 @@
           </div>
 
           <div class="operating-model-card" aria-label="Before-state operating model visual">
-            <div class="model-header">
+            <div class="diagram-header">
               <span>Before-State Operating Model</span>
-              <b>[Visual placeholder]</b>
+              <b>[Workflow map]</b>
             </div>
             <div class="model-path scattered">
               <div>[Lead]</div>
@@ -193,26 +173,10 @@
           </div>
 
           <div class="roadmap" aria-label="Product roadmap style process evolution">
-            <article class="roadmap-phase">
-              <span>Phase 1</span>
-              <h3>Build</h3>
-              <p>[HubSpot customization, workflows, documented practices, repeatable execution.]</p>
-            </article>
-            <article class="roadmap-phase">
-              <span>Phase 2</span>
-              <h3>Focus</h3>
-              <p>[Best-customer analysis, ICP refinement, qualification, prioritization framework.]</p>
-            </article>
-            <article class="roadmap-phase">
-              <span>Phase 3</span>
-              <h3>Scale</h3>
-              <p>[Playbooks, knowledge resources, guided execution, messaging standards.]</p>
-            </article>
-            <article class="roadmap-phase">
-              <span>Phase 4</span>
-              <h3>Accelerate</h3>
-              <p>[AI support, AI Objection Coach, easier knowledge access.]</p>
-            </article>
+            <article class="roadmap-phase"><span>Phase 1</span><h3>Build</h3><p>[HubSpot customization, workflows, documented practices, repeatable execution.]</p></article>
+            <article class="roadmap-phase"><span>Phase 2</span><h3>Focus</h3><p>[Best-customer analysis, ICP refinement, qualification, prioritization framework.]</p></article>
+            <article class="roadmap-phase"><span>Phase 3</span><h3>Scale</h3><p>[Playbooks, knowledge resources, guided execution, messaging standards.]</p></article>
+            <article class="roadmap-phase"><span>Phase 4</span><h3>Accelerate</h3><p>[AI support, AI Objection Coach, easier knowledge access.]</p></article>
           </div>
         </div>
       </section>
@@ -234,14 +198,10 @@
             <div class="command-grid">
               <div class="source-stack">
                 <span>Work Sources</span>
-                <div>Inbound Leads</div>
-                <i>&darr;</i>
-                <div>Active Angle</div>
-                <i>&darr;</i>
-                <div>Direct Mail Campaigns</div>
-                <i>&darr;</i>
-                <div>Sequences</div>
-                <i>&darr;</i>
+                <div>Inbound Leads</div><i>&darr;</i>
+                <div>Active Angle</div><i>&darr;</i>
+                <div>Direct Mail Campaigns</div><i>&darr;</i>
+                <div>Sequences</div><i>&darr;</i>
                 <div>Nurture</div>
               </div>
 
@@ -275,18 +235,8 @@
           </div>
 
           <div class="comparison-visual" aria-label="Before and after workflow comparison">
-            <div class="comparison-column before">
-              <span>Before</span>
-              <div class="comparison-node">[Manual decision]</div>
-              <div class="comparison-node">[Task switching]</div>
-              <div class="comparison-node">[Variable execution]</div>
-            </div>
-            <div class="comparison-column after">
-              <span>After</span>
-              <div class="comparison-node">[Clear priority]</div>
-              <div class="comparison-node">[Guided next step]</div>
-              <div class="comparison-node">[Consistent execution]</div>
-            </div>
+            <div class="comparison-column before"><span>Before</span><div class="comparison-node">[Manual decision]</div><div class="comparison-node">[Task switching]</div><div class="comparison-node">[Variable execution]</div></div>
+            <div class="comparison-column after"><span>After</span><div class="comparison-node">[Clear priority]</div><div class="comparison-node">[Guided next step]</div><div class="comparison-node">[Consistent execution]</div></div>
           </div>
         </div>
       </section>
@@ -333,14 +283,9 @@
       </section>
     </main>
 
-    <footer class="footer case-footer">
-      <div class="container text-center">
-        <p>&copy; 2026 Amy Melangton</p>
-      </div>
+    <footer class="case-footer">
+      <div class="container"><p>&copy; 2026 Amy Melangton</p></div>
     </footer>
   </div>
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
